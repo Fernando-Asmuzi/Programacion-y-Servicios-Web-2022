@@ -1,0 +1,253 @@
+
+body{
+    background-color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: #333;
+    height: 40px;
+    
+}
+
+header{
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+.ul_aside{
+  background-color: beige;
+  padding: 5px;
+}  
+  
+  li#nav {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .a_aside{
+    color: #04AA6D;
+    padding: 0px;
+    text-decoration: underline;
+    text-align: initial;
+  }
+
+  .a_autor{
+    color: indigo;
+    padding: 0px;
+    text-decoration: underline;
+    text-align: initial;
+  }
+
+  .a_cp{
+    text-align: left;
+    display: inline;
+    color: blue;
+    text-decoration: underline;
+    padding: 0px;
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
+
+  div#contenedor {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 30px;
+  }
+   
+  div#contenedor section {
+    float: left;
+    width: 70%;
+  }
+
+  div#contenedor article{
+      padding: 20px;
+  }
+   
+  div#contenedor aside {
+    float: left;
+    
+  }
+
+  .tarjeta{
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+      width:600px;
+      border: 1px solid lightgray;
+      box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+      border-radius:15px;
+      text-align: justify;
+  }
+  .titulo{
+      font-size: 24px;
+      padding: 10px 10px 0 10px;;
+  }
+  .cuerpo{
+      padding: 10px;
+      }
+  
+
+  .pie{
+      background: #333;
+      border-radius:0 0 15px 15px;
+      padding: 10px;
+      text-align:center;
+  
+  }
+  .pie a{
+      text-decoration: none;
+      color: white;
+      }
+  .pie a:after { 
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      }
+  
+   .tarjeta img{
+       width: 100%;
+   }
+
+   .interes{
+     color: #04AA6D;
+   }
+
+   .autor{
+     color: indigo;
+   }
+
+   .container{
+    margin: auto;
+    background-color: beige;
+    width: 800px;
+    padding: 30px;
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider{
+    position: relative;
+    width: 800px;
+    height: 400px;
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background:#fff;
+  }
+  
+  ul.slider li img{
+    width: 800px;
+    height: 400px;
+    
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; 
+  }
+  
+  ul.slider li:target {
+      opacity: 1; 
+  }
+  
+  .menu{
+    text-align: center;
+    margin: 20px;
+    background-color: beige;
+  }
+  
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color:#333;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
+
+  .formulario{
+    width: 500px;
+    padding: 50px;
+    text-align: left;
+  }
+  .formulario .form-group {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content:space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .formulario input {
+  border: 1px solid #CCC;
+  background-color: whitesmoke;
+  padding: 5px;
+  width:200px;
+}
+
+.formulario select {
+  border: 1px solid #CCC;
+  padding: 5px;
+  width: 200px;
+}
+
+button {
+  background-color: #4CAF50; 
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display:flex;
+}
+
+.boton{
+  display:flex;
+}
+  
