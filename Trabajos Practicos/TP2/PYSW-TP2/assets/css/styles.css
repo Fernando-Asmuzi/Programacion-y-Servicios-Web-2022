@@ -1,3 +1,17 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.card-text{
+   text-align: justify;
+}
+
+.col{
+    padding: 5px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
