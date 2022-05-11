@@ -28,6 +28,11 @@ tr img{
     width: 40px;
 }
 
+.traductor_img{
+    height: 30px;
+    width: 40px;
+}
+
 .row_celda{
     text-align:center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -44,5 +49,26 @@ tr img{
     
 }
 
+.traductor_form{
+    padding: 5px;
+}
 
+.traductor_form .row{
+    text-align:center;
+    padding: 5px;
+}
+
+.traductor_div{
+    align-items: center;
+    text-align: center;
+}
+
+form button{
+    width: 100%;
+}
+
+svg{
+    height: 40px;
+    width: 40px;
+}
     
