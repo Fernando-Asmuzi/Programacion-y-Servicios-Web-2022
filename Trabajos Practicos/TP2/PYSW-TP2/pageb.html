@@ -8,6 +8,7 @@
     <link href="/Trabajos Practicos/TP2/PYSW-TP2/assets/css/styles.css" rel="stylesheet" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5a9492f6fc.js" crossorigin="anonymous"></script>
 </head>
 <body class="container-fluid">
     <header>
@@ -37,6 +38,155 @@
             </div>
           </div>
     </nav>
+    <br>
+    <div class="row">
+        <div class="col-md-8 col-lg-8 d-none d-md-block">
+            <div class="titulo">
+                <h2>Conversor de Divisas</h2>
+            </div>
+            <div class="table-responsive">
+                <table class="table table table-bordered">
+                    <thead>
+                    <tr>
+                        <th colspan="2" scope="col"></th>
+                        
+                        <th scope="col" class="flags"><img src="/Trabajos Practicos/TP2/PYSW-TP2/assets/image/flags/us.png" alt=""><br>USA</th>
+                        <th scope="col" class="flags"><img src="/Trabajos Practicos/TP2/PYSW-TP2/assets/image/flags/uk.png" alt=""><br>GBP</th>
+                        <th scope="col" class="flags"><img src="/Trabajos Practicos/TP2/PYSW-TP2/assets/image/flags/jap.png" alt=""><br>JPY</th>
+                        <th scope="col" class="flags"><img src="/Trabajos Practicos/TP2/PYSW-TP2/assets/image/flags/btc.png" alt=""><br>BTC</th>
+                        <th scope="col" class="flags"><img src="/Trabajos Practicos/TP2/PYSW-TP2/assets/image/flags/arg.png" alt=""><br>ARS</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row" class="flags"><img src="/Trabajos Practicos/TP2/PYSW-TP2/assets/image/flags/us.png" alt=""></th>
+                        <td>
+                            <div class="row_celda">1 USD</div>
+                            <div class="row_celda">Inverse</div>
+                        </td>
+                        <td>
+                            <div class="row_celda">1.000000</div>
+                            <div class="row_celda">1.000000</div>
+                        </td>
+                        <td>
+                            <div class="row_celda">0.919901</div>
+                            <div class="row_celda">1.087631</div>
+                        </td>
+                        <td>
+                            <div class="row_celda">108.9079</div>
+                            <div class="row_celda">0.141692</div>
+                        </td>
+                        <td>
+                            <div class="row_celda">0.000140</div>
+                            <div class="row_celda">7148.757</div>
+                        </td>
+                        <td>
+                            <div class="row_celda">64.87725</div>
+                            <div class="row_celda">0.015414</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="flags"><img src="/Trabajos Practicos/TP2/PYSW-TP2/assets/image/flags/uk.png" alt=""></th>
+                        <td>
+                            <div class="row_celda">1 GBP</div>
+                            <div class="row_celda">Inverse</div>
+                        </td>
+                        <td>
+                            <div class="row_celda">1.232332</div>
+                            <div class="row_celda">0.811469</div>
+                        </td>
+                        <td>
+                            <div class="row_celda">1.000000</div>
+                            <div class="row_celda">1.000000</div>
+                        </td>
+                        <td>
+                            <div class="row_celda">134.2108</div>
+                            <div class="row_celda">0.007451</div>
+                        </td>
+                        <td>
+                            <div class="row_celda">0.000172</div>
+                            <div class="row_celda">5800.997</div>
+                        </td>
+                        <td>
+                            <div class="row_celda">79.95034</div>
+                            <div class="row_celda">0.012508</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="flags"><img src="/Trabajos Practicos/TP2/PYSW-TP2/assets/image/flags/eu.png" alt=""></th>
+                        <td>
+                            <div class="row_celda">1 EUR</div>
+                            <div class="row_celda">Inverse</div>
+                        </td>
+                        <td>
+                            <div class="row_celda">1.087074</div>
+                            <div class="row_celda">0.919901</div>
+                        </td>
+                        <td>
+                            <div class="row_celda">0.882127</div>
+                            <div class="row_celda">1.133623</div>
+                        </td>
+                        <td>
+                            <div class="row_celda">118.3910</div>
+                            <div class="row_celda">0.008447</div>
+                        </td>
+                        <td>
+                            <div class="row_celda">0.000152</div>
+                            <div class="row_celda">6576.146</div>
+                        </td>
+                        <td>
+                            <div class="row_celda">70.52637</div>
+                            <div class="row_celda">0.014179</div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="titulo"><h4>Conversor de divisas</h4></div>
+            <br>
+            <form class="conversor_form">
+                <div class="mb-3">
+                  <label for="cantidad" class="form-label">Cantidad</label>
+                  <input type="number" class="form-control" id="cantidad" placeholder="Ingrese cantidad">
+                </div>
+                <div class="mb-3">
+                  <label for="" class="form-label">De</label>
+                  <div class="dropdown">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected value="e0">Seleccione divisa</option>
+                        <option value="e1">USD Dólares EEUU</option>
+                        <option value="e2">EUR Euros Europa</option>
+                        <option value="e3">GBP Libras Esterlinas UK</option>
+                        <option value="e4">JPY Yen Japón</option>
+                        <option value="e5">BTC Bitcoin</option>
+                        <option value="e6">ARS Pesos Argentina</option>
+                    </select>  
+                  </div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">A</label>
+                    <div class="dropdown">
+                      <select class="form-select" aria-label="Default select example">
+                          <option selected value="e0">Seleccione divisa</option>
+                          <option value="e1">USD Dólares EEUU</option>
+                          <option value="e2">EUR Euros Europa</option>
+                          <option value="e3">GBP Libras Esterlinas UK</option>
+                          <option value="e4">JPY Yen Japón</option>
+                          <option value="e5">BTC Bitcoin</option>
+                          <option value="e6">ARS Pesos Argentina</option>
+                      </select>  
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <input class="form-control" id="cantidad" readonly>
+                </div>
+                <button style="width:100%;" type="button" class="btn btn-warning">Convertir</button>
+              </form>
+        </div>
+    </div>
+    <br>
     <footer>
         Todos los derechos reservados®
     </footer>

@@ -15,3 +15,34 @@ footer{
     background-color: black;
     text-align: center;
 }
+
+.titulo{
+    background-color: black ;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+
+tr img{
+    height: 40px;
+    width: 40px;
+}
+
+.row_celda{
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.flags{
+    text-align:center;
+}
+
+.conversor_form{
+    padding:5px;
+    border: gray solid 0.5px;
+    border-radius: 15px;
+    
+}
+
+
+    
